@@ -23,6 +23,19 @@
         </div>
     </div>
 
+    <div class="options" id="options" style="display: none;">
+        <button id="upload-photo">Upload Foto</button>
+        <button id="view-photo">Lihat Foto</button>
+        <button id="logout">Logout</button>
+    </div>
+
+    <div id="photo-container" style="display: none; text-align: center;">
+        <h3>Foto Anda:</h3>
+        <img id="uploaded-photo" src="" alt="Foto Anda" style="max-width: 100%; height: auto; border: 1px solid #ccc; margin-top: 10px;">
+    </div>
+
+    <input type="file" id="photo-input" accept="image/*" style="display: none;">
+
     <script src="script.js"></script>
 </body>
 </html>
